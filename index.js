@@ -1,4 +1,4 @@
-var array = ['Chase', 'Cap', 'Luna', 'Toph']
+var dogNames = ['Chase', 'Cap', 'Luna', 'Toph', 'Leo', 'Uno']
 
 var catInfo = {
   name: 'Pep',
@@ -7,19 +7,19 @@ var catInfo = {
   traits: ['shy', 'nice']
 }
 
-function numbers(num1, num2) {
-var sum = num1 + num2
-return sum
+function addTwoNumbers(num1, num2) {
+  var sum = num1 + num2
+  return sum
 }
 
-function dogGreeting(array) {
-for (var i = 0; i < array.length; i++) {
-var greeting = `Hi ${array[i]}!  Who is a good pup?!`
-console.log(greeting)
-}
+function dogGreeting(dogNames) {
+  for (var i = 0; i < dogNames.length; i++) {
+    var greeting = `Hi ${dogNames[i]}!  Who is a good pup?!`
+    console.log(greeting)
+  }
 }
 
-function getCatAge(catInfo) {
+function getCatAge() {
   var catAge = catInfo.age
   return catAge
 }
