@@ -1,4 +1,4 @@
-var names = ['Chase', 'Cap', 'Luna', 'Toph']
+var names = ['Chase', 'Cap', 'Luna', 'Toph', 'Leo', 'Uno']
 
 var cat1 = {
   name: 'Pep',
